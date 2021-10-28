@@ -32,7 +32,7 @@ namespace BoneHurtingBullets
             string limbName = limb.ToString();
 
             BulletLimbDamageChance boneBreak = Configuration.Instance.boneBreakingChances.FirstOrDefault(x => x.Limb == limbName);
-            if (boneBreak != null)
+            if (boneBreak != null && boneBreak.BreakChanceDamageMax - boneBreak.BreakChanceDamageMin > 0)
             {
                 //calculate damage percent in given range
                 var damagePercent = (damage - boneBreak.BreakChanceDamageMin) / (boneBreak.BreakChanceDamageMax - boneBreak.BreakChanceDamageMin);

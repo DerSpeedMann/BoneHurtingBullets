@@ -21,7 +21,10 @@ namespace BoneHurtingBullets
             {
                 boneBreakingChances.Add(new BulletLimbDamageChance
                 {
-                    BreakChance = 25,
+                    BreakChanceMin = 5,
+                    BreakChanceMax = 90,
+                    BreakChanceDamageMin = 5,
+                    BreakChanceDamageMax = 15,
                     Limb = limb
                 });
             }

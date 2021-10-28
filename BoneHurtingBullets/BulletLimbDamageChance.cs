@@ -8,8 +8,11 @@ namespace BoneHurtingBullets
     public class BulletLimbDamageChance
     {
         public string Limb { get; set; }
-        public int BreakChance { get; set; }
+        public int BreakChanceMin { get; set; }
+        public int BreakChanceMax { get; set; }
+        public int BreakChanceDamageMin { get; set; }
+        public int BreakChanceDamageMax { get; set; }
 
-        public BulletLimbDamageChance() { }
+public BulletLimbDamageChance() { }
     }
 }

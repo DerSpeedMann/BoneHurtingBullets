@@ -15,4 +15,4 @@ Recommended for legs:
 <BreakChanceDamageMin>10</BreakChanceDamageMin>
 <BreakChanceDamageMax>50</BreakChanceDamageMax>
 ```
-This allows a 95% chance when shot with highcall sniper and does avoid breaking legs with painball gun
+This allows a 95% chance when shot with highcall sniper and does avoid breaking legs with paintball gun
